@@ -42,15 +42,16 @@ nav a:hover { color: white; }
 
 
 /* Main styles */
-
-section {
-	.flex-me {
+.flex-me {
 	display: flex;
 }
 
 .flex-ma div {
 	flex: 1;
 }
+
+section {
+	}
 	
 section ul, aside ul {
 	list-style-type: square;
