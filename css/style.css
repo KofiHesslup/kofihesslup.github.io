@@ -1,6 +1,5 @@
 body {
-	background: #FAEBD7 url('../images/animalsbackground.jpg');
-	color: #333;
+	background: #FFF8DC;
 }
 
 a {
@@ -18,8 +17,7 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: Brown;
+	color: brown;
 	min-height: 100px;
 	margin-top: 60px;
 	margin: auto;
@@ -28,6 +26,7 @@ header {
 header h1 {
 	padding: 40px 60px;
 	font-size: 48px;
+	text-align: center;
 }
 
 
@@ -43,10 +42,13 @@ nav a:hover { color: white; }
 
 
 /* Main styles */
-main { 
-	background-color: #fff;
-	display: grid;
-	grid-template-columns: 60% 40%;
+
+.flex-me {
+	display: flex;
+}
+
+.flex-ma div {
+	flex: 1;
 }
 
 section {
