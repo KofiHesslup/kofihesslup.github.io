@@ -31,14 +31,14 @@ header h1 {
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color: #DEB887; }
 nav ul { 
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-center;
 }
-nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
+nav li { padding: 30px 30px; }
+nav a { color: white; }
+nav a:hover { color: tomato; }
 
 
 /* Main styles */
