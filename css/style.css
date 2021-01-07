@@ -9,11 +9,34 @@ a {
 
 a:hover { color: #FFA500; }
 
-header, nav, main, footer {
+header {
 	width: 80%;
 	margin: auto;
+	font-family: 'East Sea Dokdo', cursive;
 }
 
+nav, main, footer {
+	width: 80%;
+	margin: auto;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  background-color: #DEB887;
+  padding: 60px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 80px 0;
+  font-size: 25px;
+}
+</style>
 
 }
 
@@ -29,7 +52,7 @@ header h1 {
 	padding: 40px 60px;
 	font-size: 48px;
 	text-align: center;
-	color: #333
+	color: #8B4513
 }
 
 
