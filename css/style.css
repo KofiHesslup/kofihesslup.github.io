@@ -7,7 +7,7 @@ a {
 	color: #333;
 }
 
-a:hover { color: #FF4500; }
+a:hover { color: #FFA500; }
 
 header, nav, footer {
 	width: 80%;
@@ -43,15 +43,14 @@ nav a:hover { color: white; }
 
 
 /* Main styles */
-.flex-me {
+
+section {
+	.flex-me {
 	display: flex;
 }
 
 .flex-ma div {
 	flex: 1;
-}
-
-section {
 	}
 	
 section ul, aside ul {
