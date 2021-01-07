@@ -9,7 +9,7 @@ a {
 
 a:hover { color: #FF4500; }
 
-header, nav, main, footer {
+header, nav, footer {
 	width: 80%;
 	margin: auto;
 }
