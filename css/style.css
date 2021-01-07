@@ -9,7 +9,7 @@ a {
 
 a:hover { color: #FFA500; }
 
-header, nav, footer {
+header, nav, main, footer {
 	width: 80%;
 	margin: auto;
 }
@@ -45,13 +45,10 @@ nav a:hover { color: white; }
 /* Main styles */
 
 section {
-	.flex-me {
-	display: flex;
+	.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
 }
-
-.flex-ma div {
-	flex: 1;
-	}
 	
 section ul, aside ul {
 	list-style-type: square;
